@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FAMILY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("family.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100%;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 25px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: left;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MY LOVELY FAMILY</h1><br>
+  <br></br>
+  <p style="color:black">This is the best place to forget every thing</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">INDEX</a>
+  <a href="home.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="contact.html">CONTACT</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About FOUNDER</h2>
+    <h5>Photo of my tree :</h5>
+    <img src="grapa.jpg" style="height:210px;">
+    <p>Our family's most important persons MR & MRS Seerapu.Samba Shiva Reddy and Rama Lakshmi they are our life our love our soul with out them we are no more </p>
+    <h3>More Information</h3>
+    <p> </p>
+        <img src="grandpa.jpg" style="height:275px;">
+    <p>Here comes the legend of our sweat home MR S.Samba Shiva Reddy our most lovable person he was born in 10th october 1955 in a farmer's family and by his hard work he became an bank employee and rose his 4 children well and he was died in 17th december 2016 we miss him alot</p>
+    <img src="ram.jpg" style="height:500px;">
+    <p>Here comes the queen of our home MRS S.Rama Lakshmi our world our love our every thing
+  </div>
+</div>
+
+<div class="footer">
+"  <h2></h2>
+</div>
+
+</body>
+</html>
